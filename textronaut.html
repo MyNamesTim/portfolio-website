@@ -8,10 +8,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/profile_photo.png">
-    <title>Portfolio</title>
+    <title>Projects</title>
 </head>
 
-<body style="background-color: #131313">
+<body style="background-color: #131313"">
     <div class="video-background">
         <video id="background-video" autoplay muted loop playsinline preload="auto" poster="images/poster.png"
             width="640">
@@ -19,7 +19,6 @@
             Your browser does not support the video tag.
         </video>
     </div>
-
 
     <nav class="navbar navbar-expand-md" style="border-radius: 12.5px;">
         <div class="container-fluid">
@@ -30,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapseContent">
                 <ul class="navbar-nav">
-                    <li class="nav-it   em">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html"><img src="images/profile_photo.png"
                                 style="border-radius: 100%;" height="20" width="20"></a>
                     </li>
@@ -45,43 +44,19 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </nav>
 
-    <div class="card" id="description_card">
+    <div class="card w-60" id="description_card" style="margin: 5%;">
         <br>
-        <h1 class="text-center" style="font-family: Cubic; font-size: 300%;">About Me</h1>
-        <h3 class="text-center">I am currently attending Morris County School of Technology in Denville, New Jersey,
-            where I am enrolled in the Computer and Information Sciences academy. <br> <a href="https://github.com/MyNamesTim" style="text-decoration: none; color: #272727;">Github</a><br> Email: timothy.nakev@mcvts.org</h3>
+        <h1 class="text-center" style="font-family: Cubic; font-size: 300%;">Textronaut</h1>
+        <div>
+            <iframe class="mx-auto d-block" frameborder="0" src="https://itch.io/embed/3696392?bg_color=19002f&amp;fg_color=a341ff&amp;link_color=8800f4&amp;border_color=3b0071" width="552" height="167"><a href="https://mynamestim.itch.io/textronaut">Textronaut by MyNamesTim</a></iframe>
+            <h3 id="card_label" class="w-75 mx-auto text-center">
+                An extremely lightweight, simple procedural texture generator that uses Perlin noise. Out on itch.io now.
+            </h3>
+        </div>
     </div>
-
-    <div class="card" id="description_card">
-        <br>
-        <h1 class="text-center" style="font-family: Cubic; font-size: 300%;">Experience</h1>
-        <h3 class="text-center">I have experience in Godot, Visual Studio Code, and am extremely proficient in modelling
-            programs such as Blender. I have worked with teams in game jams and hackathons where we were placed under a
-            time limit and had to create something.</h3>
-    </div>
-
-    <div class="card" id="description_card">
-        <br>
-        <h1 class="text-center" style="font-family: Cubic; font-size: 300%;">Extracurriculars</h1>
-        <h3 class="text-center">Outside of school, I play a handful of sports. I run track and winter track, and I play
-            football as a wide receiver/cornerback.</h3>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -103,7 +78,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.13"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Flip.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
@@ -113,20 +87,12 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EaselPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/PixiPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
-
-
-    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EasePack.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
 
-    <!-- Bootstrap CDN -->
-    <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!--Noise CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/4.0.1/simplex-noise.min.js"></script>
 
-    <!--Script-->
     <script src="script.js"></script>
 </body>
 

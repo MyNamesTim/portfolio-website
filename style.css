@@ -92,3 +92,13 @@ body {
 img {
     border-radius: 12.5px;
 }
+
+.dropdown-item {
+    color: #131313;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(30, 30, 30, .5);
+    text-decoration: none;
+    color: #131313;
+}

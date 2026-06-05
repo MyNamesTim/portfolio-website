@@ -33,9 +33,20 @@
                         <a class="nav-link" href="index.html"><img src="https://www.github.com/mynamestim.png"
                                 style="border-radius: 100%;" height="20" width="20"></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle shadow-none" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                            style="color: #131313; background-color: rgba(75, 75, 75, .5); outline: none; box-shadow: none !important;">
+                            Projects
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1"
+                            style="background-color:rgba(75, 75, 75, .5); color: #131313;">
+                            <li><a class="dropdown-item" href="projects/engineering.html">Engineering</a></li>
+                            <li><a class="dropdown-item" href="projects/programming.html">Programming</a></li>
+                            <li><a class="dropdown-item" href="projects/modeling.html">Modeling</a></li>
+                            <li><a class="dropdown-item" href="projects/extracurriculars.html">Extracurriculars</a></li>
+                        </ul>
+                    </div>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
@@ -49,7 +60,7 @@
 
     <div class="card w-60" id="description_card" style="margin: 5%;">
         <br>
-        <h1 class="text-center" style="font-family: Cubic; font-size: 300%;">Textronaut</h1>
+        <h1 class="text-center" style="font-family: A-Space; font-size: 300%;">Textronaut</h1>
         <div>
             <iframe class="mx-auto d-block" frameborder="0" src="https://itch.io/embed/3696392?bg_color=19002f&amp;fg_color=a341ff&amp;link_color=8800f4&amp;border_color=3b0071" width="552" height="167"><a href="https://mynamestim.itch.io/textronaut">Textronaut by MyNamesTim</a></iframe>
             <h3 id="card_label" class="w-75 mx-auto text-center">

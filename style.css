@@ -8,6 +8,11 @@
     src: url(fonts/TT\ Octosquares.woff2);
 }
 
+@font-face {
+    font-family: A-Space;
+    src: url(fonts/a-space.otf);
+}
+
 body {
     font-family: "TT Octosquares";
     background-size: cover;
@@ -101,4 +106,8 @@ img {
     background-color: rgba(30, 30, 30, .5);
     text-decoration: none;
     color: #131313;
+}
+
+h1 {
+    font-family: "A-Space";
 }
